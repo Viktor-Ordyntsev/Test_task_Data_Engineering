@@ -125,16 +125,28 @@ python task2/script3.py
 
 ## Быстрый старт
 
-1. Создайте и активируйте виртуальное окружение:
+1. Создайте виртуальное окружение:
    ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
+   python -m venv .venv
    ```
-2. Установите зависимости (в данной реализации не требуется!):
+2. Активируйте его:
+   - macOS / Linux:
+     ```bash
+     source .venv/bin/activate
+     ```
+   - Windows (PowerShell):
+     ```powershell
+     .\.venv\Scripts\Activate.ps1
+     ```
+   - Windows (CMD):
+     ```bat
+     .venv\Scripts\activate.bat
+     ```
+3. Установите зависимости (в данном случае не нужно!):
    ```bash
    pip install -r requirements.txt
    ```
-3. Запустите нужный скрипт из разделов выше.
+4. Запустите нужный скрипт из разделов выше.
 
 ## Примечание
 
