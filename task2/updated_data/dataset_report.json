@@ -1,0 +1,9 @@
+{
+  "images_count": 28,
+  "annotations_count": 40,
+  "categories_count": 23,
+  "empty_images_count": 6,
+  "missing_files_count": 0,
+  "errors_count": 0,
+  "errors": []
+}
